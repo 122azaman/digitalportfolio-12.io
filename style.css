@@ -1,0 +1,90 @@
+body {
+  opacity: 0;
+  transition: opacity 1.8s;
+}
+body {
+  color: black;
+  font-family: "Cormorant", serif;
+  text-align: center;
+  background-color: #97a97c;
+}
+.top {
+  background-image: url("img/jumbo.jpg");
+  height: 600px;
+  background-size: cover;
+}
+.name {
+  color: white;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+.topnav a:hover {
+  border-bottom: 3px solid black;
+}
+#introcard {
+  margin-top: 110px;
+  margin-bottom: 110px;
+  width: 80%;
+  height: 500px;
+  border-radius: 70px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   
+}
+#cards {
+  text-align: center;
+  height: 450px;
+  border-radius: 15px;
+  width: 100%;
+  transition: 0.3s all ease-in-out;
+}
+#cards:hover {
+  transform: scale(1.065);
+}
+h3 {
+  color: rgb(230, 75, 65);
+  text-decoration: none;
+}
+h3:hover {
+  color: rgb(170, 15, 5);
+  text-decoration: underline rgb(200, 45, 35);
+}
+.colors {
+  background-color: rgb(175, 175, 195);
+}
+table {
+  text-align: center;
+}
+td {
+  width: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#footer1 {
+  text-align: left;
+}
+#footer2 {
+  text-align: right;
+}
+.socials {
+  height: 35px;
+  width: 35px;
+}
+#socials {
+  background-color: rgb(145, 145, 165);
+  border-radius: 100px;
+  height: 60px;
+  width: 60px;
+}
+button#socials:hover {
+  cursor: not-allowed;
+}
