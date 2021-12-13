@@ -32,9 +32,10 @@ body {
 #introcard {
   margin-top: 110px;
   margin-bottom: 110px;
-  width: 80%;
   height: 500px;
   border-radius: 70px;
+  background-image: url();
+  background-image: cover;
 }
 #cards {
   text-align: center;
@@ -55,7 +56,7 @@ h3:hover {
   text-decoration: underline rgb(200, 45, 35);
 }
 .colors {
-  background-color: rgb(175, 175, 195);
+  background-color: lightgray;
 }
 table {
   text-align: center;
