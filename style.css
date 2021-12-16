@@ -6,9 +6,9 @@ body {
   color: black;
   font-family: "Cormorant", serif;
   text-align: center;
-  background-color: #97a97c;
+  background-color: #a2b88f;
 }
-.top {
+/* .top {
   background-image: url("img/jumbo.jpg");
   height: 600px;
   background-size: cover;
@@ -28,35 +28,40 @@ body {
 }
 .topnav a:hover {
   border-bottom: 3px solid black;
-}
+} */
 #introcard {
   margin-top: 110px;
   margin-bottom: 110px;
   height: 500px;
   border-radius: 70px;
-  background-image: url();
+  background-image: url(img/pic4.jpg);
   background-image: cover;
+  opacity: 70%;
+  border-width: 10px;
+  border-color: white;
 }
+
 #cards {
   text-align: center;
   height: 450px;
   border-radius: 15px;
   width: 100%;
   transition: 0.3s all ease-in-out;
+  background-color: rgb(240,240,240)
 }
 #cards:hover {
   transform: scale(1.065);
 }
 h3 {
-  color: rgb(230, 75, 65);
+  color: rgb(162, 184, 143);
   text-decoration: none;
 }
 h3:hover {
-  color: rgb(170, 15, 5);
-  text-decoration: underline rgb(200, 45, 35);
+  color: rgb(102, 124, 83);
+  text-decoration: underline;
 }
 .colors {
-  background-color: lightgray;
+  background-color: darkgray;
 }
 table {
   text-align: center;
